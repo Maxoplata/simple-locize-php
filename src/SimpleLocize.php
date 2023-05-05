@@ -20,7 +20,7 @@ class SimpleLocize
 
 		$this->projectId = $projectId;
 		$this->environment = $environment;
-		$this->privateKey =  $privateKey;
+		$this->privateKey = $privateKey;
 	}
 
 	private function fetchFromLocize($namespace, $language)
